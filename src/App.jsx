@@ -14,8 +14,9 @@
     }, [tasks])
 
 
+    
     useEffect(() => {
-
+      /*
       const fetchTasks = async () => {
         const response = await fetch("https://jsonplaceholder.typicode.com/todos?_limit=7",
           {
@@ -27,8 +28,9 @@
       }
       
       fetchTasks();
+      */
     }, [])
-
+  
 
 
     function onTaskClick(taskId){
